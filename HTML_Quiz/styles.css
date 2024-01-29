@@ -5,16 +5,16 @@
   }
   
   body {
-    background: #f5f6f7;
-    color: #1b1b32;
+    background: #111b30;
+    color: #e7e7e7;
     font-family: Helvetica;
     margin: 0;
   }
   
   header {
     width: 100%;
-    height: 50px;
-    background-color: #1b1b32;
+    height: 100px;
+    background-color: #080c16;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,14 +23,15 @@
   }
   
   #logo {
-    width: max(100px, 18vw);
-    background-color: #0a0a23;
-    aspect-ratio: 35 / 4;
+    height: max(50px, 5vw);
+    width: 5vw;
+    background-color: #080c16;
+    aspect-ratio: 4 / 6;
     padding: 0.4rem;
   }
   
   h1 {
-    color: #f1be32;
+    color: #f1dc53;
     font-size: min(5vw, 1.2em);
     text-align: center;
   }
@@ -54,13 +55,14 @@
   nav > ul > li {
     color: #dfdfe2;
     margin: 0 0.2rem;
-    padding: 0.2rem;
+    padding: 0.5rem;
     display: block;
+    border-radius: 4px;
   }
   
   nav > ul > li:hover {
-    background-color: #dfdfe2;
-    color: #1b1b32;
+    background-color: #1a233b;
+    color: #e7e7e7;;
     cursor: pointer;
   }
   
@@ -77,6 +79,7 @@
     width: 80%;
     margin: 0 auto 10px auto;
     max-width: 600px;
+    
   }
   
   h1,
@@ -85,7 +88,7 @@
   }
   
   h2 {
-    border-bottom: 4px solid #dfdfe2;
+    border-bottom: 4px solid #e7e7e74a;
     margin-top: 0px;
     padding-top: 60px;
   }
@@ -101,13 +104,15 @@
   
   input {
     font-size: 16px;
+    background-color: #080c16;
+    color: #e7e7e7;
   }
   
   .info label, .info input {
     display: inline-block;
   }
   
-  .info input {
+  .info input:not(type="date"){
     width: 50%;
     text-align: left;
   }
@@ -148,16 +153,25 @@
   
   button {
     display: block;
-    margin: 40px auto;
-    width: 40%;
+    margin: 50px auto;
+    width: 25%;
     padding: 15px;
     font-size: 23px;
-    background: #d0d0d5;
-    border: 3px solid #3b3b4f;
+    background: #080c16;
+    border: 2px solid #020305;
+    color: #e7e7e7;
+    border-radius: 24px;
+  }
+  button:hover{
+    background: #04050a;
+    cursor: pointer;
+  }
+  button:active{
+    background: #020305;
   }
   
   footer {
-    background-color: #2a2a40;
+    background-color: #080c16;
     display: flex;
     justify-content: center;
   }
@@ -184,3 +198,13 @@
     border: 0;
   }
   
+  textarea{
+    width: 100%;
+    background-color: #080c16;
+    color: #e7e7e7;
+  }
+
+  select{
+    background-color: #080c16;
+    color: #e7e7e7;
+  }
