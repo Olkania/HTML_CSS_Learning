@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Cat Photo App</title>
+  </head>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+
+      <section>
+      <h2>Cat Photos</h2>
+      <!-- TODO: Add link to cat photos - gallery site -->
+      <p>See more cat photos in our <a href='https://www.pexels.com/search/cat/' target=_blank>gallery.</a></p>
+      <a href="orange_cat_on_bed.jpeg"><img src="orange_cat_on_bed.jpeg" alt="Orange cat lying on the bed"></a>
+      </section>
+
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+
+        <figure>
+        <img src="laser_pointer.jpeg" alt="A laser pointer with red light.">
+        <figcaption>Cats <em>love</em> laser pointers.</figcaption>
+        </figure>
+
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        
+        <figure>
+          <img src="thunder.jpeg" alt="One thunder on a night sky above city.">
+          <figcaption>Cats <strong>hate</strong> thunders.</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2>Cat Form</h2>
+      </section>
+      <form action="form.html">
+        <fieldset>
+          <legend>Is your cat an indoor or outdoor cat?</legend>
+          <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+          <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+
+        <input type="text" placeholder="cat photo URL" name="CatPhotoURL" required>
+        <button type="submit">Sumbit</button>
+        </form>
+
+    </main>
+    <footer>
+      <p>No Copyright - Aleksandra <a href="https://github.com/Olkania">(Olkania)</a></p>
+    </footer>
+  </body>
+</html>

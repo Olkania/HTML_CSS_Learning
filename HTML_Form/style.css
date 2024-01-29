@@ -1,0 +1,91 @@
+body{
+    background-color: #152339;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    color: #e1e1e1;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+form{
+    min-width: 300px;
+    max-width: 550px;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+fieldset{
+border: none;
+border-bottom: 3px solid #5f6e88;
+padding: 2rem 0;
+margin-top: 0.5rem;
+}
+fieldset:last-of-type{
+    border-bottom: none;
+}
+ 
+h1, p{
+    text-align: center;
+    margin: 1em auto;
+}
+
+label{
+    display: block;
+    margin: 0.7rem auto;
+}
+
+input, textarea, select{
+    width: 100%;
+    min-height: 2em;
+    margin: 4px 0 0 0;
+    background-color: #070f1c;
+    color: #e1e1e1;
+}
+
+input, textarea{
+    border: 1px solid #070f1c
+}
+
+.inline{
+    display: inline;
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+}
+
+legend{
+    margin-bottom: -1.2em;
+}
+
+input[type="submit"]{
+    display: block;
+    min-width: 275px;
+    width: 50%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #5f6e88;
+    border: 1px solid #e1e1e1;
+    border-radius: 16px;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+    background-color: unset;
+    border: unset;
+  }
+
+  a{
+    color: #e1e1e1;
+  }
+  a:hover{
+    color: #5f6e88;
+  }
+ a:active{
+    color: #070f1c;
+ } 
+ a:visited{
+    color: #070f1c
+ }

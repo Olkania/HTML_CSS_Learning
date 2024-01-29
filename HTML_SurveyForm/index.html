@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="styles.css" rel="stylesheet">
+    </head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to complete this survey</p>
+    <form id="survey-form">
+        <fieldset>
+            <label for="name"> Name <input id="name" name="name" type="text" placeholder=" Enter your name" required class="font-size"/></label>
+            <label for="email"> Email <input id="email" name="email"type="email" placeholder=" Enter your email" required class="font-size"/></label>
+            <label for="number"> Age (optional) <input id="number" name="age" type="number" placeholder=" Enter your age" min=13 max=120 class="font-size"/></label>
+            <label for="dropdown"> Which option best describes your current role? 
+                <select id="dropdown" name="dropdown" required class="font-size">
+                    <option value=""> Select current role</option>
+                    <option value=1> Student</option>
+                    <option value=2> Full Time Job</option>
+                    <option value=3> Prefer not to say</option>
+                    <option value=4> Other</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Do you like playing video games?</legend>
+            <label for="positive"><input id="positive" name="video-games-q" type="radio" value="yes" class="inline" checked/>Of course, almost every day </label>
+            <label for="neutral"><input id="neutral" name="video-games-q" type="radio" value="maybe" class="inline"/>Maybe, from time to time</label>
+            <label for="negative"><input id="negative" name="video-games-q" type="radio" value="no" class="inline"/>Not at all </label>
+        </fieldset>
+        <fieldset>
+            <legend>What kind of video games do you like to play? (check all that apply)</legend>
+            
+            <label for="action"><input id="action" name="type-vg" type="checkbox" value="action" class="inline"/> Action </label>
+            <label for="adventure"><input id=""adventure name="type-vg" type="checkbox" value="adventure" class="inline"/> Adenture </label>
+            <label for="battle-royal"><input id="battle-royal" name="type-vg" type="checkbox" value="battle-royal" class="inline"/> Battle Royal</label>
+            <label for="fighting"><input id="fighting" name="type-vg" type="checkbox" value="fighting" class="inline"/> Fighting </label>
+            <label for="horror"><input id="horror" name="type-vg" type="checkbox" value="horror" class="inline"/> Horror </label>
+            <label for="puzzle"><input id="puzzle" name="type-vg" type="checkbox" value="puzzle" class="inline"/> Puzzle </label>
+            <label for="racing"><input id="racing" name="type-vg" type="checkbox" value="racing" class="inline"/> Racing </label>
+            <label for="rpg"><input id="rpg" name="type-vg" type="checkbox" value="rpg" class="inline"/> RPG</label>
+            <label for="shooter"><input id="shooter" name="type-vg" type="checkbox" value="shooter" class="inline"/> Shooter </label>
+            <label for="simulation"><input id="simulation" name="type-vg" type="checkbox" value="simulation" class="inline"/> Simulation </label>
+            <label for="sports"><input id="sports" name="type-vg" type="checkbox" value="sports" class="inline"/> Sports </label>
+            <label for="strategy"><input id="strategy" name="type-vg" type="checkbox" value="strategy" class="inline"/> Strategy </label>
+            <label for="survival"><input id="survival" name="type-vg" type="checkbox" value="survival" class="inline"/> Survival </label>
+            <label for="survival-horror"><input id="survival-horror" name="type-vg" type="checkbox" value="survival-horror" class="inline"/> Survival horror </label>
+        </fieldset>
+        <fieldset>
+            <label for="vg-names">Would you like to share your favourite video games' titles? (optional)<textarea id="vg-names" placeholder=" Enter titles of video games you like" rows=5 cols=40 class="font-size"></textarea></label>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit"/>
+    </form>
+</body>
+</html>

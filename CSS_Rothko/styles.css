@@ -1,0 +1,51 @@
+.canva {
+    width: 500px;
+    height: 800px;
+    background: linear-gradient(129deg, rgba(238,122,53,1) 12%, rgba(221,215,56,0.9009978991596639) 22%, rgba(205,121,13,1) 38%, rgba(215,101,4,1) 57%, rgba(255,238,6,1) 71%, rgba(223,148,0,1) 88%, rgba(233,166,0,1) 99%);
+
+    overflow: hidden;
+    box-shadow: 0 0 5px 5px rgb(238,122,53);
+  }
+  
+  .frame {
+    border: 7px solid black;
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+  }
+  
+  .one {
+    width: 450px;
+    height: 125px;
+    background-color: #ed3224;
+    box-shadow: 0 0 3px 3px #ed3224;
+    margin: 40px auto;
+    filter: blur(17px);
+    border-radius: 120px 100px 50px 45px;
+
+  }
+  
+  .two {
+    width: 475px;
+    height: 425px;
+    background-color: #ee7f7d;
+    margin: -35px auto;
+    box-shadow: 0 0 5px 5px #ee7f7d;
+    border-radius: 80px 8px 20px 50px;
+    filter: blur(20px);
+    z-index: 1;
+    position: relative;
+
+  }
+  
+  .three {
+    width: 475px;
+    height: 150px;
+    background-color: #c75814;
+    margin: 55px auto;
+    box-shadow: 0 0 5px 5px #c75814;
+    border-radius: 90px 25px 80px 12px;
+    filter: blur(10px);
+  
+  }
+ 
